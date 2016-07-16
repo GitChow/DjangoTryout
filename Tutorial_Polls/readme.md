@@ -73,3 +73,6 @@
   - from django.contrib import admin
   - from .models import Question
   - admin.site.reigster(Question)
+
+# part3: views and templates
+- paused here: I need a good one as backend of AngularJS, providing RESTFull API
