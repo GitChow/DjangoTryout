@@ -1,4 +1,4 @@
-# Requests and responses
+# Part 1: Requests and responses
 > following https://docs.djangoproject.com/en/1.9/intro/tutorial01/
 
 - create a project
@@ -16,3 +16,8 @@
 
 - Error found : TypeError: 'module' object is not iterable
  - fix: when do `from django.conf.urls import include,url`, the comma is used as "Chinese character one"
+
+# Part 2: Models and admin sites
+> https://docs.djangoproject.com/en/1.9/intro/tutorial02/
+
+ 
