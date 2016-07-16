@@ -1,10 +1,11 @@
 > following https://docs.djangoproject.com/en/1.9/intro/tutorial01/
+
 - create a project
  - `django-admin startproject mysite`
 - `py manage.py runserver`
 - ignore warning, access http://127.0.0.1:8000/ , check welcome page
 
-> tip: change server port: python manage.py runserver 8080
+> change server port: python manage.py runserver 8080
 > developmnet server reload automatiocally
 
 > project vs app : project contains app
