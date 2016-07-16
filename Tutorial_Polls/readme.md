@@ -28,6 +28,7 @@
 `py .\manage.py migrate`
 
 > play with API, interactive shell
+
 - `py manage.py shell` 
  - from polls.models import Question, Choice
  - Question.objects.all()
@@ -42,6 +43,7 @@
  - Question.objects.all()
 
 > double underscores: filed lookup
+
 - another shell test: test the newly added methods
  - from polls.models import Question, Choice
  - Question.objects.all()
