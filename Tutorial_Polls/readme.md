@@ -66,3 +66,10 @@
  - c = q.choice_set.filter(choice_text__startswith='Just hacking')
  - c.delete()
 
+- create admin user
+ - py manage.py createsuperuser
+ - http://127.0.0.1:8000/admin/
+ - make the poll app modifiable in the admin: polls/admin.py
+  - from django.contrib import admin
+  - from .models import Question
+  - admin.site.reigster(Question)
